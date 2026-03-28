@@ -1,4 +1,3 @@
-//3
 
 // Create lead status list
 List<String> leadStatus = new List<String>
