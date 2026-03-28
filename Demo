@@ -1,0 +1,18 @@
+//1
+// Create list and add 5 participants
+List<String> attendees = new List<String>();
+attendees.add('Siva');
+attendees.add('Sea');
+attendees.add('Anu');
+attendees.add('San');
+attendees.add('Priya');
+
+// Add 2 walk-in participants at the end
+attendees.add('Arjun');
+attendees.add('Meena');
+
+// Remove one participant who canceled (by name)
+attendees.remove(2);
+
+// Print final list
+System.debug('Final Attendee List: ' + attendees);
