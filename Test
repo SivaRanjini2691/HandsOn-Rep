@@ -1,0 +1,23 @@
+//3
+
+// Create lead status list
+List<String> leadStatus = new List<String>
+{
+    'New',
+    'Contacted',
+    'Qualified',
+    'Disqualified',
+    'New'
+};
+
+// Change status of 2nd lead to Converted 
+leadStatus[1] = 'Converted';
+
+// Remove lead marked as Disqualified
+leadStatus.remove(3);
+
+// Print each status using loop
+for(String status : leadStatus) 
+{
+    System.debug('Lead Status: ' + status);
+}
