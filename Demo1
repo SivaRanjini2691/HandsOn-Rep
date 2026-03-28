@@ -1,0 +1,18 @@
+//2
+
+// List with 4 phone numbers
+List<String> phoneNumbers = new List<String>{
+    '9876543210',
+    '9123456780',
+    '9988776655',
+    '9012345678'
+};
+
+// Insert new number at index 2
+phoneNumbers.add(2, '8899001122');
+
+// Replace outdated number (index 1)
+phoneNumbers[1] = '9111222333';
+
+// Print updated list
+System.debug('Updated Phone Numbers: ' + phoneNumbers);
